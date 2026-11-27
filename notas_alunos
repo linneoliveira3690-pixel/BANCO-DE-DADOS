@@ -1,0 +1,23 @@
+import os
+os.system ("cls")
+
+print("Nota dos alunos")
+
+
+trabalho = float(input("Informe a nota do trabalho: "))
+prova = float(input("Informe a nota da prova: "))
+atividade = float(input("Informe a nota da atividade: "))
+
+media = (trabalho + prova + atividade) /3
+
+print(f"A média do aluno é: {media}")
+
+if media >=7:
+    print("Aprovado")
+elif media <4:
+    print("Reprovado")
+else: 
+    print("Recuperação")
+
+
+input("Por favor, teclar enter para finalizar")
